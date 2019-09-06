@@ -1,7 +1,7 @@
-# Initializa Google Cloud Platform
+# Initializa Computer Engine on GCP for machine learning
 
 Install CUDA, Anaconda, OpenCV, Pytorch for mechine learning.
-
+GCP: [Google Cloud Platform](https://cloud.google.com/)
 My GPU: NVIDIA Tesla T4
 My System: Ubuntu 16.04 LTS
 
