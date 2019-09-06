@@ -116,6 +116,7 @@ Exit file and open notebook with passwd.
 ## Install OpenCV
 ```
 sudo pip3 install opencv-python
+pip install opencv-python
 ```
 ## Install Pytorch
 
