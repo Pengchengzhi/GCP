@@ -4,7 +4,7 @@ Install CUDA
 GPU: NVIDIA Tesla T4
 System: Ubuntu 16.04 LTS
 
-code
+#Prepare
 
 `sudo apt-get upgrade`
 
@@ -17,6 +17,8 @@ code
 `sudo pip3 install --upgrade pip`
 
 `sudo pip3 install numpy scipy matplotlib pandas seaborn sklearn lightgbm xgboost tqdm`
+
+#CUDA
 
 https://www.nvidia.com/Download/index.aspx
 
@@ -36,13 +38,11 @@ https://www.nvidia.com/Download/index.aspx
 
 `sudo apt-get update`
 
-Anaconda
+#Anaconda
 
 `wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh`
 
-`sudo chmod +x Anaconda3-2019.07-Linux-x86_64.sh`
-
-`sudo ./Anaconda3-2019.07-Linux-x86_64.sh`
+`bash Anaconda3-2019.07-Linux-x86_64.sh`
 
 source ~/.bashrc
 
