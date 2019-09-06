@@ -31,3 +31,9 @@ https://www.nvidia.com/Download/index.aspx
 `nvidia-smi`
 
 ![pic0](https://github.com/Pengchengzhi/GCP/blob/master/nvidia-smi.png)
+
+`sudo apt-get upgrade`
+
+`sudo apt-get update`
+
+
