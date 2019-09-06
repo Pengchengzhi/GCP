@@ -41,24 +41,22 @@ sudo pip3 install numpy scipy matplotlib pandas seaborn sklearn lightgbm xgboost
 
 # CUDA
 
-https://www.nvidia.com/Download/index.aspx
-
-`sudo wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run`
-
-`sudo chmod +x NVIDIA-Linux-x86_64-418.87.00.run`
-
-`sudo ./NVIDIA-Linux-x86_64-418.87.00.run`
-
-`sudo reboot`
+Find your package at [Nvidia offical website](https://www.nvidia.com/Download/index.aspx).
+```
+sudo wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run
+sudo chmod +x NVIDIA-Linux-x86_64-418.87.00.run
+sudo ./NVIDIA-Linux-x86_64-418.87.00.run
+sudo reboot
+```
+Check if successfully installed.
 
 `nvidia-smi`
 
 ![pic0](https://github.com/Pengchengzhi/GCP/blob/master/nvidia-smi.png)
-
-`sudo apt-get upgrade`
-
-`sudo apt-get update`
-
+```
+sudo apt-get upgrade
+sudo apt-get update
+```
 # Anaconda
 
 `wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh`
