@@ -53,7 +53,7 @@ Then
 
 `sudo reboot`
 
-Check if successfully installed.
+And check if successfully installed.
 
 `nvidia-smi`
 
