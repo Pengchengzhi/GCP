@@ -53,6 +53,10 @@ Check if successfully installed.
 `nvidia-smi`
 
 ![pic0](https://github.com/Pengchengzhi/GCP/blob/master/nvidia-smi.png)
+
+Driver Version: 418.87.00
+
+CUDA Version: 10.1
 ```
 sudo apt-get upgrade
 sudo apt-get update
