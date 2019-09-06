@@ -8,17 +8,19 @@ System: Ubuntu 16.04 LTS
 
 Original python version 3.5, change to 3.7:
 
-`wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz`
+```
+wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
 
-`tar zxvf Python-3.7.3.tgz`
+tar zxvf Python-3.7.3.tgz
 
-`cd Python-3.7.3`
+cd Python-3.7.3
 
-`./configure --with-ssl`
+./configure --with-ssl
 
-`make`
+make
 
-`sudo make install`
+sudo make install
+```
 
 `sudo rm -rf /usr/bin/python3`
 
