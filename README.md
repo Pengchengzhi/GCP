@@ -2,11 +2,11 @@
 
 A guide to install CUDA, Anaconda, OpenCV, Pytorch and build environment for Computer Vision.
 
-GCP: [Google Cloud Platform](https://cloud.google.com/)
+* GCP: [Google Cloud Platform](https://cloud.google.com/)
 
-My GPU: NVIDIA Tesla T4
+* My GPU: NVIDIA Tesla T4
 
-My System: Ubuntu 16.04 LTS
+* My System: Ubuntu 16.04 LTS
 
 ## Create VM instance
 
