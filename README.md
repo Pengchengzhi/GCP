@@ -48,8 +48,11 @@ Find your package at [Nvidia offical website](https://www.nvidia.com/Download/in
 sudo wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run
 sudo chmod +x NVIDIA-Linux-x86_64-418.87.00.run
 sudo ./NVIDIA-Linux-x86_64-418.87.00.run
-sudo reboot
 ```
+Then
+
+`sudo reboot`
+
 Check if successfully installed.
 
 `nvidia-smi`
