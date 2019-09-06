@@ -105,13 +105,13 @@ c.NotebookApp.password = u'sha1:your result'
 ```
 Exit file and open notebook with passwd.
 
-* Can't open website?
+**Can't open website?**
 
-1.Use http request, not https.
+* Use http request, not https.
 
-2.Close all vpn.
+* Close all vpn.
 
-3.Close all chrome plugin which may block the website.
+* Close all chrome plugin which may block the website.
 
 ## Install OpenCV
 ```
