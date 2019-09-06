@@ -1,10 +1,11 @@
-# GCP
-Install CUDA
+# Initializa Google Cloud Platform
 
-GPU: NVIDIA Tesla T4
-System: Ubuntu 16.04 LTS
+Install CUDA, Anaconda, OpenCV, Pytorch for mechine learning.
 
-# Prepare
+My GPU: NVIDIA Tesla T4
+My System: Ubuntu 16.04 LTS
+
+## Prepare
 
 Get some essential packages and updates.
 ```
@@ -38,7 +39,7 @@ sudo pip3 install --upgrade pip
 sudo pip3 install numpy scipy matplotlib pandas seaborn sklearn lightgbm xgboost tqdm
 ```
 
-# CUDA
+## Install CUDA
 
 Find your package at [Nvidia offical website](https://www.nvidia.com/Download/index.aspx).
 ```
@@ -60,7 +61,7 @@ CUDA Version: 10.1
 sudo apt-get upgrade
 sudo apt-get update
 ```
-# Anaconda
+## Install Anaconda
 
 `wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh`
 
@@ -88,11 +89,11 @@ close all vpn
 
 close chrome plugin
 
-# OpenCV
+## Install OpenCV
 
 `sudo pip3 install opencv-python`
 
-# Pytorch
+## Install Pytorch
 
 https://pytorch.org/
 
