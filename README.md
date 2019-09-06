@@ -17,11 +17,13 @@ make
 sudo make install
 ```
 
+Remove previous soft link:
+
 ```
 sudo rm -rf /usr/bin/python3
 sudo rm -rf /usr/bin/pip3
 ```
-
+Add new soft link:
 ```
 sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
 sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
