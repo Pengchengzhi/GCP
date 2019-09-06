@@ -8,25 +8,25 @@ System: Ubuntu 16.04 LTS
 
 Original python version 3.5, change to 3.7:
 
-wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
+`wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz`
 
-tar zxvf Python-3.7.3.tgz
+`tar zxvf Python-3.7.3.tgz`
 
-cd Python-3.7.3
+`cd Python-3.7.3`
 
-./configure --with-ssl
+`./configure --with-ssl`
 
-make
+`make`
 
-sudo make install
+`sudo make install`
 
-sudo rm -rf /usr/bin/python3
+`sudo rm -rf /usr/bin/python3`
 
-sudo rm -rf /usr/bin/pip3
+`sudo rm -rf /usr/bin/pip3`
 
-sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
+`sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7`
 
-sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
+`sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7`
 
 # Start
 
@@ -46,7 +46,7 @@ sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
 
 https://www.nvidia.com/Download/index.aspx
 
-`wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run`
+`sudo wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run`
 
 `sudo chmod +x NVIDIA-Linux-x86_64-418.87.00.run`
 
