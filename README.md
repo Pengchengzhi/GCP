@@ -6,6 +6,30 @@ System: Ubuntu 16.04 LTS
 
 # Prepare
 
+Original python version 3.5, change to 3.7:
+
+wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
+
+tar zxvf Python-3.7.3.tgz
+
+cd Python-3.7.3
+
+./configure --with-ssl
+
+make
+
+sudo make install
+
+sudo rm -rf /usr/bin/python3
+
+sudo rm -rf /usr/bin/pip3
+
+sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
+
+sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
+
+# Start
+
 `sudo apt-get update`
 
 `sudo apt-get upgrade`
