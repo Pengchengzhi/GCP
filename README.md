@@ -57,7 +57,7 @@ sudo ./NVIDIA-Linux-x86_64-418.87.00.run
 sudo apt-get update
 sudo apt-get upgrade
 ```
-Then reboot and check if successfully installed.
+Check if successfully installed.
 
 `nvidia-smi`
 
