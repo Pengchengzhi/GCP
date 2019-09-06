@@ -29,18 +29,15 @@ sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
 sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
 ```
 # Start
-
-`sudo apt-get update`
-
-`sudo apt-get upgrade`
-
-`sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev valgrind cmake unrar gfortran python3-pip python3-dev python3-wheel swig git git-core htop g++ freeglut3-dev  libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev`
-
-`sudo apt-get install python3-pip python3-setuptools`
-
-`sudo pip3 install --upgrade pip`
-
-`sudo pip3 install numpy scipy matplotlib pandas seaborn sklearn lightgbm xgboost tqdm`
+Get some essential packages and updates.
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev valgrind cmake unrar gfortran python3-pip python3-dev python3-wheel swig git git-core htop g++ freeglut3-dev  libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
+sudo apt-get install python3-pip python3-setuptools
+sudo pip3 install --upgrade pip
+sudo pip3 install numpy scipy matplotlib pandas seaborn sklearn lightgbm xgboost tqdm
+```
 
 # CUDA
 
