@@ -8,7 +8,11 @@ My GPU: NVIDIA Tesla T4
 
 My System: Ubuntu 16.04 LTS
 
-## Prepare
+## Create VM instance
+
+To be done
+
+## Preparing
 
 Get some essential packages and updates.
 ```
