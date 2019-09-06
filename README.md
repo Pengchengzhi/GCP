@@ -10,7 +10,7 @@ A guide to install CUDA, Anaconda, OpenCV, Pytorch and build environment for Com
 
 ## Create VM instance
 
-To be done
+Follow [this instruction](https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52).
 
 ## Preparing
 
@@ -71,51 +71,66 @@ CUDA Version: 10.1
 
 ## Install Anaconda
 
-`wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh`
-
-`bash Anaconda3-2019.07-Linux-x86_64.sh`
-
+Find your package at [Anaconda offical website](https://www.anaconda.com/distribution/)
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+bash Anaconda3-2019.07-Linux-x86_64.sh
 source ~/.bashrc
-
+```
+Set passward:
+```
+vim generateSha.py
+```
+Then encrypt:
+```
+from notebook.auth import passwd
+print(passwd('Your Passwd'))
+```
+Run and save the results
+```
+python3 generateSha.py
+```
+Then follow the instructions
+```
 jupyter notebook --generate-config
-
 vim /home/usr/.jupyter/jupyter_notebook_config.py
-
+```
+Add these to file:
+```
 c = get_config()
-
 c.NotebookApp.ip = '*'
-
 c.NotebookApp.open_browser = False
-
 c.NotebookApp.port = <Port Number>
+c.NotebookApp.password = u'sha1:your result'
+```
+Exit file and open notebook with passwd.
 
-Can't open
+* Can't open website?
 
-http request, not https
+1.Use http request, not https.
 
-close all vpn
+2.Close all vpn.
 
-close chrome plugin
+3.Close all chrome plugin which may block the website.
 
 ## Install OpenCV
-
-`sudo pip3 install opencv-python`
-
+```
+sudo pip3 install opencv-python
+```
 ## Install Pytorch
 
-https://pytorch.org/
-
-`conda update --all`
-
-`conda install pytorch torchvision cudatoolkit=10.0 -c pytorch`
-
+Use conda install or [other means](https://pytorch.org/)
+```
+conda update --all
+conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+```
+Check if successfully installed
+```
 python3
-
 import torch
-
 torch.__version__
-
-
+```
+My result: `'1.2.0'`
 
 
 
