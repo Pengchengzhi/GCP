@@ -29,3 +29,5 @@ https://www.nvidia.com/Download/index.aspx
 `sudo reboot`
 
 `nvidia-smi`
+
+![pic0](https://github.com/Pengchengzhi/GCP/blob/master/nvidia-smi.png)
