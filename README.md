@@ -54,6 +54,8 @@ cd ..
 sudo wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run
 sudo chmod +x NVIDIA-Linux-x86_64-418.87.00.run
 sudo ./NVIDIA-Linux-x86_64-418.87.00.run
+sudo apt-get update
+sudo apt-get upgrade
 ```
 Then reboot and check if successfully installed.
 
@@ -64,10 +66,7 @@ Then reboot and check if successfully installed.
 Driver Version: 418.87.00
 
 CUDA Version: 10.1
-```
-sudo apt-get upgrade
-sudo apt-get update
-```
+
 ## Install Anaconda
 
 `wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh`
