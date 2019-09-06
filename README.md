@@ -61,6 +61,8 @@ Then reboot and check if successfully installed.
 
 `nvidia-smi`
 
+My result:
+
 ![pic0](https://github.com/Pengchengzhi/GCP/blob/master/nvidia-smi.png)
 
 Driver Version: 418.87.00
