@@ -1,6 +1,6 @@
-# Initialize Computer Engine on GCP for machine learning
+# Initialize Computer Engine on GCP for Computer Vision
 
-Install CUDA, Anaconda, OpenCV, Pytorch for mechine learning.
+Install CUDA, Anaconda, OpenCV, Pytorch.
 
 GCP: [Google Cloud Platform](https://cloud.google.com/)
 
