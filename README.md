@@ -1,6 +1,6 @@
 # Initialize Computer Engine on GCP for Computer Vision
 
-Install CUDA, Anaconda, OpenCV, Pytorch.
+Aim to install CUDA, Anaconda, OpenCV, Pytorch and build the environment.
 
 GCP: [Google Cloud Platform](https://cloud.google.com/)
 
