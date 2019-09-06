@@ -1,4 +1,4 @@
-# Initializa Computer Engine on GCP for machine learning
+# Initialize Computer Engine on GCP for machine learning
 
 Install CUDA, Anaconda, OpenCV, Pytorch for mechine learning.
 
