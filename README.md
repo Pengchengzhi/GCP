@@ -137,7 +137,9 @@ torch.__version__
 ```
 My result: `'1.2.0'`
 
+## Warning
 
+Remember to shut down VM instance or you will be charged.
 
 
 
