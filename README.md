@@ -18,6 +18,9 @@ Get some fundamental packages and updates.
 ```
 sudo apt-get update
 sudo apt-get upgrade
+```
+and:
+```
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev valgrind cmake unrar gfortran python3-pip python3-dev python3-wheel swig git git-core htop g++ freeglut3-dev  libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
 ```
 Original python version is python3.5, change to python3.7:
