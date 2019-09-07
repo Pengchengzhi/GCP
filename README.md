@@ -14,7 +14,7 @@ Follow [this instruction](https://towardsdatascience.com/running-jupyter-noteboo
 
 ## Preparing
 
-Get some essential packages and updates.
+Get some fundamental packages and updates.
 ```
 sudo apt-get update
 sudo apt-get upgrade
