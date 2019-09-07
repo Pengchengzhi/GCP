@@ -34,15 +34,6 @@ make
 sudo make install
 cd ..
 ```
-
-Remove previous soft link and add new soft link:
-
-```
-sudo rm -rf /usr/bin/python3
-sudo rm -rf /usr/bin/pip3
-sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
-sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
-```
 Get packages.
 ```
 sudo apt-get install python3-pip python3-setuptools
