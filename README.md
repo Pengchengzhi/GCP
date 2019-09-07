@@ -139,7 +139,7 @@ My result: `'1.2.0'`
 
 ## Warning
 
-Remember to shut down VM instance or you will be charged.
+Remember to shut down VM instance or you will be charged even if you are not using it.
 
 
 
