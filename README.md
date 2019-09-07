@@ -69,6 +69,10 @@ Driver Version: 418.87.00
 
 CUDA Version: 10.1
 
+## Install cuDNN
+
+Need to [create an account](https://developer.nvidia.com/cudnn).
+
 ## Install Anaconda
 
 Find your package at [Anaconda offical website](https://www.anaconda.com/distribution/).
