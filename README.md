@@ -131,6 +131,9 @@ pip install opencv-python
 Use conda install or [other means](https://pytorch.org/).
 ```
 conda update --all
+```
+And:
+```
 conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 ```
 Check if successfully installed.
