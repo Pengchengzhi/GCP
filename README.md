@@ -1,6 +1,6 @@
 # Initialize Computer Engine on Google Cloud Platform
 
-A guide to install CUDA, cuDNN, Anaconda, OpenCV, Pytorch and build environment for Computer Vision.
+A guide to install CUDA, cuDNN, Anaconda, OpenCV, Pytorch.
 
 * GCP: [Google Cloud Platform](https://cloud.google.com/)
 
