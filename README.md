@@ -76,6 +76,9 @@ Find your package at [Anaconda offical website](https://www.anaconda.com/distrib
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
 bash Anaconda3-2019.07-Linux-x86_64.sh
+```
+And:
+```
 source ~/.bashrc
 ```
 Set passward:
