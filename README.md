@@ -8,7 +8,7 @@ A guide to install CUDA, cuDNN, Anaconda, OpenCV, Pytorch.
 
 * My System: Ubuntu 16.04 LTS
 
-## Create VM instance
+## Create VM Instance
 
 Follow [this instruction](https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52).
 
