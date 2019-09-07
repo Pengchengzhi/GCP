@@ -29,6 +29,7 @@ cd Python-3.7.3
 ./configure --with-ssl
 make
 sudo make install
+cd ..
 ```
 
 Remove previous soft link and add new soft link:
@@ -50,7 +51,6 @@ sudo pip3 install numpy scipy matplotlib pandas seaborn sklearn lightgbm xgboost
 
 Find your package at [Nvidia offical website](https://www.nvidia.com/Download/index.aspx).
 ```
-cd ..
 sudo wget http://us.download.nvidia.com/tesla/418.87/NVIDIA-Linux-x86_64-418.87.00.run
 sudo chmod +x NVIDIA-Linux-x86_64-418.87.00.run
 sudo ./NVIDIA-Linux-x86_64-418.87.00.run
