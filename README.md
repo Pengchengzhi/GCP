@@ -39,7 +39,7 @@ sudo rm -rf /usr/bin/pip3
 sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
 sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip3.7
 ```
-Get packages
+Get packages.
 ```
 sudo apt-get install python3-pip python3-setuptools
 sudo pip3 install --upgrade pip
@@ -71,7 +71,7 @@ CUDA Version: 10.1
 
 ## Install Anaconda
 
-Find your package at [Anaconda offical website](https://www.anaconda.com/distribution/)
+Find your package at [Anaconda offical website](https://www.anaconda.com/distribution/).
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
 bash Anaconda3-2019.07-Linux-x86_64.sh
@@ -90,7 +90,7 @@ Run and save the results
 ```
 python3 generateSha.py
 ```
-Then follow the instructions
+Then follow the instructions.
 ```
 jupyter notebook --generate-config
 vim /home/usr/.jupyter/jupyter_notebook_config.py
@@ -120,12 +120,12 @@ pip install opencv-python
 ```
 ## Install Pytorch
 
-Use conda install or [other means](https://pytorch.org/)
+Use conda install or [other means](https://pytorch.org/).
 ```
 conda update --all
 conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 ```
-Check if successfully installed
+Check if successfully installed.
 ```
 python3
 import torch
