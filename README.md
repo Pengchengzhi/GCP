@@ -34,6 +34,10 @@ make
 sudo make install
 cd ..
 ```
+Check if successfully instaled:
+```
+python3
+```
 Get packages.
 ```
 sudo apt-get install python3-pip python3-setuptools
