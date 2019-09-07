@@ -6,7 +6,7 @@ A guide to install CUDA, cuDNN, Anaconda, OpenCV, Pytorch.
 
 * My GPU: NVIDIA Tesla T4
 
-* My System: Ubuntu 16.04 LTS
+* My System: Ubuntu 18.04 LTS
 
 ## Create VM Instance
 
