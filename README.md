@@ -72,9 +72,9 @@ CUDA Version: 10.1
 
 ## Install cuDNN
 
-Need to [create an account](https://developer.nvidia.com/cudnn) to download file.
+[Create an account](https://developer.nvidia.com/cudnn) and download file.
 ```
-sudo dpkg -i 
+sudo dpkg -i libcudnn7_7.6.3.30-1+cuda10.1_amd64.deb
 ```
 
 ## Install Anaconda
